@@ -76,7 +76,7 @@ function Login() {
               }
               required
             />
-
+            <span className="text-red-500 text-sm">{error}</span>
             <button
               className={`p-2.5 rounded-lg mt-2 w- ${
                 loading
