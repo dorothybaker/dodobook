@@ -164,7 +164,7 @@ function ProfileModal({ opened, setOpened, user }) {
         </div>
 
         <button className="bg-secondary text-secondary h-10 flex items-center justify-center mt-3 rounded-lg sm:w-[70%] mx-auto w-full text-base !leading-3">
-          Submit ny changes
+          Submit my changes
         </button>
       </form>
     </Modal>
