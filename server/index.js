@@ -20,10 +20,6 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(cors({ credentials: true }));
 
-app.get("/", (req, res) => {
-  res.send("Hello world from the server!");
-});
-
 // Routes
 app.use("/api/auth", auth);
 app.use("/api/users", user);
