@@ -23,8 +23,6 @@ function Posts({ userPosts, userId, setPostNumber }) {
 
   const { pathname } = useLocation();
 
-  console.log(posts);
-
   return (
     <div className="py-2 flex flex-col gap-5">
       {pathname.startsWith("/profile") ? (

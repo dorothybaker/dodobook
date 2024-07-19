@@ -30,7 +30,7 @@ function Login() {
 
   return (
     <div className="flex justify-center items-center min-h-screen">
-      <div className="flex justify-center gap-4 lg:w-[70%] w-full mx-auto items-center flex-col">
+      <div className="flex justify-center gap-4 lg:w-[70%] w-full mx-auto items-center flex-col px-2">
         <div className="flex items-center gap-2 flex-1 flex-col text-center px-2">
           <h1 className="text-3xl text-primary font-medium">dodobook</h1>
           <div className="flex flex-col gap-0 text-[14.5px]">

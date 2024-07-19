@@ -25,7 +25,7 @@ function Profile() {
       <div className="lg:flex-2 flex-3 md:sticky top-[10px] md:block hidden">
         <ProfileLeft data={data} />
       </div>
-      <div className="lg:flex-4 flex-5">
+      <div className="lg:flex-4 flex-5 w-full">
         <ProfileInfo data={data} />
       </div>
       <div className="flex-2 lg:block hidden sticky top-0">
